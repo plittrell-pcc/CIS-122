@@ -7,6 +7,7 @@
 # Input:  No user input
 # Output: Prints "Hello World!" to the screen
 # Source: Lab 1 specifications
+# GitHub: https://github.com/plittrell-pcc/CIS-122.git
 #
 #***************************************************************
 
