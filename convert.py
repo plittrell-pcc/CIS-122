@@ -6,7 +6,7 @@
 # Desc:   This program converts inches to feet and inches.
 # Input:  No user input
 # Output: Number of different coins
-# Source: Lesson 3: Modulus
+# Source: Unit 2 Lesson 3: Modulus
 # GitHub: https://github.com/plittrell-pcc/CIS-122.git
 #
 #***************************************************************
