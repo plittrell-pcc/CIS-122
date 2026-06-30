@@ -37,7 +37,7 @@ print("---------- Welcome to the Personal Fitness Tracker -----------")
 
 # Get the name of the exercise and duration of workout
 exercise_type = input("Enter the type of exercise (e.g., Running, Cycling, Swimming): ")
-workout_minutes = int(input("Enter the number of minutes you exercised: "))
+workout_minutes = float(input("Enter the number of minutes you exercised: "))
 
 # Multiply the minutes by our constant burn rate
 total_calories_burned = workout_minutes * CALORIES_PER_MINUTE
