@@ -3,8 +3,9 @@
 # Author: Paul Littrell
 # Lab:    CIS-122 Practice Problem
 # Date:   June 29,2026
-# Desc:   This program calculates the cost of gas
-# Input:  The car's mpg and the cost of 1 gallon of gas
+# Desc:   This program calculates the cost of gas to drive
+#         20, 50, and 500 miles.
+# Input:  The car's mpg and the cost of 1 gallon of gas.
 # Output: The gas cost for 20 miles, 75 miles, and 500 miles.
 # Source: Unit 2 Python Practice 2
 # GitHub: https://github.com/plittrell-pcc/CIS-122.git
