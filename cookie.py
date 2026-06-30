@@ -17,11 +17,15 @@
 # cookies = 0     // I prefer to declare the type while setting the variable
 # calories = 0.0  // I prefer to declare the type while setting the variable
 
+#Set serving size
+COOKIES_PER_SERVING = 4
+CALORIES_PER_SERVING = 300
+
 # Prompt for cookies eaten and store into cookies
 cookies = int(input('Enter number of cookies eaten:'))
 
 # Calculate calories = cookies * 300 / 4
-calories = float(cookies * 300 / 4)
+calories = float(cookies * CALORIES_PER_SERVING / COOKIES_PER_SERVING)
 
 # Display calories eaten
 print ('Calories eaten:', calories)
