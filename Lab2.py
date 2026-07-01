@@ -30,8 +30,11 @@
 # --------------------------------------------------------------
 #
 
-# Average calories burned per minute for a moderate workout
+# Declare variables
 CALORIES_PER_MINUTE = 8.6
+exercise_type = ""
+workout_minutes = 0.0
+total_calories_burned = 0.0
 
 print("---------- Welcome to the Personal Fitness Tracker -----------")
 
