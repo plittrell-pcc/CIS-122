@@ -29,7 +29,6 @@
 #               Great job staying active today!
 # --------------------------------------------------------------
 #
-
 # Declare variables
 CALORIES_PER_MINUTE = 8.6
 exercise_type = 0
