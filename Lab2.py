@@ -16,34 +16,43 @@
 # ----------
 #
 # ---------- Welcome to the Personal Fitness Tracker -----------
-# Enter the type of exercise (e.g., Running, Cycling, Swimming): Running
-# Enter the number of minutes you exercised: 30
 #
+# Track the following exercises.
+#  (1) for Walking
+#  (2) for Running
+#  (3) for Cycling
+#  (4) for Swimming
+#
+# Enter the type of exercise (1, 2, 3, 4): 2
+# You selected: Running
+# Enter the number of minutes you exercised: 30
 # --------------------------------------------------------------
 #            Workout Summary Logged Successfully!
 # --------------------------------------------------------------
-# Activity Type:     Running
-# Duration:          30 minutes
-# Estimated Burn:    258.00 calories
+# Activity Type:         Running
+# Calories per minute:   11.5
+# Duration:              30.0 minutes
+# Estimated Burn:        345.00 calories
 # --------------------------------------------------------------
 #               Great job staying active today!
 # --------------------------------------------------------------
-#
+
+
 # Declare variables
 CALORIES_PER_MINUTE = 8.6
 exercise_type = 0
 workout_minutes = 0.0
 total_calories_burned = 0.0
 
-print("---------- Welcome to the Personal Fitness Tracker -----------")
+print("---------- Welcome to the Personal Fitness Tracker -----------\n")
 
 # Get the name of the exercise and duration of workout
 
-print("Enter the type of exercise.\n")
-print("Enter (1) for Walking")
-print("Enter (2) for Running")
-print("Enter (3) for Cycling")
-print("Enter (4) for Swimming\n")
+print("Track the following exercises.\n")
+print(" (1) for Walking")
+print(" (2) for Running")
+print(" (3) for Cycling")
+print(" (4) for Swimming\n")
 
 # Get the initial input for exercise type
 exercise_type = int(input("Enter the type of exercise (1, 2, 3, 4): "))
@@ -58,22 +67,18 @@ if exercise_type == 1:
     print("You selected: Walking")
     exercise_type = "Walking"
     CALORIES_PER_MINUTE = 4.5
-
 elif exercise_type == 2:
     print("You selected: Running")
     exercise_type = "Running"
     CALORIES_PER_MINUTE = 11.5
-
 elif exercise_type == 3:
     print("You selected: Cycling")
     exercise_type = "Cycling"
     CALORIES_PER_MINUTE = 8.0
-
 elif exercise_type == 4:
     print("You selected: Swimming")
     exercise_type = "Swimming"
     CALORIES_PER_MINUTE = 7.0
-
 else:
     # This is a safety net, though our while loop prevents ever reaching it
     print("Unknown exercise type.")
