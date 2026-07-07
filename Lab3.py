@@ -38,6 +38,11 @@
 #               Great job staying active today!
 # --------------------------------------------------------------
 
+# Constants for calorie burn rates per minute
+WALKING_RATE = 4.5
+RUNNING_RATE = 11.5
+CYCLING_RATE = 8.0
+SWIMMING_RATE = 7.0
 
 def main():
     print_welcome()
@@ -126,13 +131,13 @@ def determine_calorie_rate(exercise_choice):
     rate_result = 0.0
 
     if exercise_choice == 1:
-        rate_result = 4.5
+        rate_result = WALKING_RATE
     elif exercise_choice == 2:
-        rate_result = 11.5
+        rate_result = RUNNING_RATE
     elif exercise_choice == 3:
-        rate_result = 8.0
+        rate_result = CYCLING_RATE
     elif exercise_choice == 4:
-        rate_result = 7.0
+        rate_result = SWIMMING_RATE
 
     return rate_result
 
