@@ -14,14 +14,14 @@
 
 # Sample runs
 # -----------
-# Enter total change in cents: 0
+# Enter total change (e.g., 1.45): 0
 # No Change.
 #
-# Enter total change in cents: 26
+# Enter total change (e.g., 1.45): .26
 # 1 Quarter
 # 1 Penny
 #
-# Enter total change in cents: 155
+# Enter total change (e.g., 1.45): 1.55
 # 1 Dollar
 # 2 Quarters
 # 1 Nickel
@@ -40,14 +40,20 @@ def main():
     #Output
     output_change(total_cents, num_dollars, num_quarters, num_dimes, num_nickels, num_pennies)
 
+
 def get_input():
     """
-    Prompts the user to enter their total change as an integer
-    :Return: int, The user's input amount in cents
+    Prompts the user to enter their total change as a decimal (e.g., 1.45)
+    :Return: int, The user's input amount converted to total cents
     """
-    cents=0
+    amount = 0.0
+    cents = 0
 
-    cents = int(input("Enter total change in cents: "))
+    amount = float(input("Enter total change (e.g., 1.45): "))
+
+    # Multiply by 100 then convert to an integer
+    cents = int(amount * 100)
+
     return cents
 
 
@@ -132,6 +138,7 @@ def output_change(total_cents, dollars, quarters, dimes, nickels, pennies):
                 print(f"{pennies} Penny")
             else:
                 print(f"{pennies} Pennies")
+
 
 # Run the program
 main()
