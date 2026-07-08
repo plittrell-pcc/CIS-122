@@ -3,10 +3,10 @@
 # Author: Paul Littrell
 # Lab:    CIS-122 Practice Problem 4
 # Date:   July 8, 2026
-# Desc:   Program to prompt a user for their total change as an integer and
-#         output the change using the fewest coins, one coin type per line.
-# Input:  Total change in cents.
-# Output: Print change in number dollars,quarters,dimes,nickles and pennies.
+# Desc:   Program to prompt a user for their total change as a decimal and
+#         output the change using the fewest coins, one coin type per line
+# Input:  Total change in decimal (e.g., 1.45)
+# Output: Print change in number dollars,quarters,dimes,nickles and pennies
 # Source: Unit 4 Python Practice 4
 # GitHub: https://github.com/plittrell-pcc/CIS-122.git
 #
@@ -51,7 +51,7 @@ def get_input():
 
     amount = float(input("Enter total change (e.g., 1.45): "))
 
-    # Multiply by 100 then convert to an integer
+    # Convert to cents by multiplying by 100 then convert to an integer
     cents = int(amount * 100)
 
     return cents
