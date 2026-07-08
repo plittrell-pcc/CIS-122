@@ -1,7 +1,7 @@
 # ****************************************************************************
 #
 # Author: Paul Littrell
-# Lab:    CIS-122 Practice Problem
+# Lab:    CIS-122 Practice Problem 2
 # Date:   June 29,2026
 # Desc:   This program calculates the cost of gas to drive
 #         20, 50, and 500 miles.

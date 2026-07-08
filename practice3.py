@@ -1,7 +1,7 @@
 # ****************************************************************************
 #
 # Author: Paul Littrell
-# Lab:    CIS-122 Practice Problem
+# Lab:    CIS-122 Practice Problem 3
 # Date:   July 2,2026
 # Desc:   This program will take the dimensions of a cylinder jar and it will
 #         will estimate how many gumballs it will take to fill.
