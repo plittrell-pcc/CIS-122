@@ -34,7 +34,7 @@ def main():
     #Get input
     total_cents = get_input()
 
-    #Process Calculations with multiple returns
+    #Process calculations with multiple returns
     num_dollars, num_quarters, num_dimes, num_nickels, num_pennies = calculate_change(total_cents)
 
     #Output
@@ -98,11 +98,11 @@ def output_change(total_cents, dollars, quarters, dimes, nickels, pennies):
     :Param pennies: int, Number of pennies
     :Return: None
     """
-    # Selection to handle no change
+    # Handle no change
     if total_cents <= 0:
         print("No Change.")
     else:
-        # Selection to handle correct singular/plural naming
+        # Handle correct singular/plural naming
         if dollars > 0:
             if dollars == 1:
                 print(f"{dollars} Dollar")
