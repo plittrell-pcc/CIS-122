@@ -49,22 +49,6 @@
 # Odd numbers:           3
 # ------------------------------------------
 
-# ****************************************************************************
-#
-# Author: Paul Littrell
-# Lab:    CIS-122 Practice 5
-# Date:   July 9, 2026
-# Description: This program prompts the user to enter a series of integers
-#              until they choose to stop. It tracks the inputs and calculates
-#              statistics and reports totals, averages, ranges, and categorical
-#              counts.
-# Inputs:      User defined series of integers
-# Outputs:     A summary report displaying calculated statistics
-# Source: Unit 5 Python Practice 5
-# GitHub: https://github.com/plittrell-pcc/CIS-122.git
-#
-# ****************************************************************************
-
 def main():
     """
     Main driver function to run program
