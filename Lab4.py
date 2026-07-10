@@ -3,7 +3,7 @@
 # Author: Paul Littrell
 # Lab:    CIS-122 Lab4
 # Date:   July 8, 2026
-# Desc:   Refactor Lab 3 to ddd at least two decision structures (If statements).
+# Desc:   Refactor Lab 3 to add at least two decision structures (If statements).
 #         But because I already had them, I added a motivational message.
 #
 #         Calculates the estimated number of calories burned during a workout
