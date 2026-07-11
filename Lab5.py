@@ -1,7 +1,7 @@
 # ****************************************************************************
 #
 # Author: Paul Littrell
-# Lab:    CIS-122 Lab4
+# Lab:    CIS-122 Lab5
 # Date:   July 11, 2026
 # Desc:   Add a while loop to your main() function to execute your program
 #         until the user wants to quit.
