@@ -7,9 +7,8 @@
 #         program or resulting in erroneous output
 #
 #         Calculates the estimated number of calories burned during a workout
-#         based on the exercise duration, refactored to use functions. Also
-#         added variable calorie burn rates per feedback from Lab2. Includes
-#         functionality for unlisted custom exercises. Utilizes valid.py.
+#         based on the exercise duration. Includes functionality for unlisted
+#         custom exercises. Utilizes valid.py to validate inputs.
 #
 # Input:  The type of exercise and the duration in minutes.
 # Output: A summary of workout activity, duration, and total calories burned.
