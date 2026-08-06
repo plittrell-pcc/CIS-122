@@ -3,7 +3,7 @@
 # Author: Paul Littrell
 # Lab:    CIS-122 Practice 7 (Refactored)
 # Date:   August 3, 2026
-# Description: This program refactors Practice 7 to append user input only
+# Description: This program refactors Practice 5 to append user input only
 #              POSITIVE integers to a list. It prompts the user to enter a
 #              series of positive integers, validating input with a custom
 #              module. It then iterates through the list to calculate and
